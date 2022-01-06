@@ -15,7 +15,6 @@ var renderComment = async () => {
         
     template += `
     <div class="card">
-    <p class="id"> ${i}</id>
     <h4 class="title"> ${comments.articles[i].title} </h4>
     <p> 
     ${comments.articles[i].body}
