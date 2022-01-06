@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>qoura</title>
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="./img/logo.png">
+    </div>
+
+    <div id="articles">
+        <script src="./js/plugin.js"></script>
+        <div class="card">
+            <h4 class="title"> title </h4>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Architecto adipisci aliquam expedita labore autem, numquam excepturi. 
+                Nisi modi atque asperiores, amet facere dicta nesciunt nam.
+                 Assumenda accusantium cumque necessitatibus inventore?
+            </p>
+            <div class="messageDiv">
+                <form id="send" action="onSubmit">
+                    <input type="hidden" value="0"> 
+                    <label for="name"> UserName: </label>
+                    <input type="text" id="name" class="inline" placeholder="username">
+                    <label for="message">comment:</label>
+                    <textarea id="message"  class="inline" placeholder="comment here"> </textarea>
+                    <input type="submit" id="submit-ms" class="inline" value="send">
+                </form>
+            </div>
+
+            <div class="comments">
+                <div class="comment">
+                    <h5>first comment</h5>
+                    <p> test comment</p>
+                </div>
+                <div class="comment">
+                    <h5>second comment</h5>
+                    <p> second comment</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4 class="title"> title </h4>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Architecto adipisci aliquam expedita labore autem, numquam excepturi. 
+                Nisi modi atque asperiores, amet facere dicta nesciunt nam.
+                 Assumenda accusantium cumque necessitatibus inventore?
+            </p>
+            <div class="messageDiv">
+                <form id="send">
+                    <label for="name"> UserName: </label>
+                    <input type="text" id="name" class="inline" placeholder="username">
+                    <label for="message">comment:</label>
+                    <textarea id="message"  class="inline" placeholder="comment here"> </textarea>
+                    <input type="submit" id="submit-ms" class="inline" value="send">
+                </form>
+            </div>
+
+            <div class="comments">
+                <div class="comment">
+                    <h5>first comment</h5>
+                    <p> test comment</p>
+                </div>
+                <div class="comment">
+                    <h5>second comment</h5>
+                    <p> second comment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

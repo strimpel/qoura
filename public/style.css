@@ -1,0 +1,66 @@
+
+body{
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+}
+
+#logo{
+ width: 120px; 
+}
+
+.card{
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.inline{
+    display: block;
+    margin: 15px auto;
+}
+
+#message{
+    width: 70%;
+    height: 100px;
+    resize: none;
+}
+
+#submit-ms{
+    background-color: rgb(99, 99, 241);
+    width: 20%;
+    padding: 15px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
+}
+
+#submit-ms:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+label{
+    font-weight: bold;
+}
+
+.comments{
+    background-color: blue;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.comment{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
