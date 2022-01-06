@@ -56,7 +56,6 @@ articlesSection.innerHTML = template;
 
 document.addEventListener('submit' ,async (event) => {
     event.preventDefault();
-
     await fetch('/data' , {
         method: 'POST',
         body: JSON.stringify(Object.fromEntries(new FormData(event.target))),
@@ -64,6 +63,7 @@ document.addEventListener('submit' ,async (event) => {
             'Content-type': 'application/json; charset=UTF-8'
         }
     });  
+    renderComment()
 });
 
 

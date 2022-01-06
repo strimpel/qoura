@@ -73,10 +73,20 @@ router.get('/' , (req,res) => {
 
 router.post('/', (req,res) => {
 
+    const id = req.body.id;
+    const name = req.body.name;
+    const message = req.body.message;
+    console.log("id="+ id + " name=" + name + " message= " + message)
     
-    console.log(req.body)
-    
-    res.json("{status:ok}")
+
+    db.articles[id].comments.push(
+        {
+            id: db.articles[id].comments.length,
+            title: name,
+            body: message
+        }
+    )
+    res.json(db)
 })
 
 
